@@ -1,5 +1,23 @@
 # Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
 
+<!-- portfolio-visual-start -->
+## Engineering overview
+
+![Jenkins](https://img.shields.io/badge/Stack-Jenkins-176b99) ![Stars](https://img.shields.io/github/stars/ABHILASH9519/animated-fiesta)
+
+![Animated workflow](docs/portfolio-flow.svg)
+
+```mermaid
+flowchart LR
+  N0["Maven"] --> N1["Quality checks"] --> N2["Helm"] --> N3["Argo CD"]
+```
+
+Illustrative workflow: Maven → Quality checks → Helm → Argo CD. See the implementation and setup below for actual capabilities and prerequisites.
+
+[Developer profile](https://github.com/ABHILASH9519) · [Issues](https://github.com/ABHILASH9519/animated-fiesta/issues)
+<!-- portfolio-visual-end -->
+
+
 ![](https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png)
 
 ## 🔗 BLOG URL HERE: https://harshhaa.hashnode.dev/streamlining-cicd-workflow-with-github-jenkins-sonarqube-docker-argocd-and-gitops
